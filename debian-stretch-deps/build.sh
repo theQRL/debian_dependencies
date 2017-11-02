@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 echo $BUILD_DIR
 echo $PROTOBUF_VER
 echo $GRPCIO_VER
