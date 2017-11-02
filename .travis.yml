@@ -1,0 +1,20 @@
+sudo: required
+dist: trusty
+services: docker
+
+addons:
+  apt:
+    packages:
+      - git
+      - python3
+      - python3-pip
+
+jobs:
+  include:
+    - stage: build
+      os: linux
+      env:
+        BUILD_DIR='/build'
+        PROTOBUF_VER=3.4.1
+        GRPCIO_VER=1.7.0
+      script: "debian-stretch-deps/build.sh"
