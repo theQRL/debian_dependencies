@@ -47,3 +47,7 @@ dpkg-buildpackage
 
 # Move the Protobuf stuff to /build/deb_dist
 mv $BUILD_DIR/$PROTOBUF_DIR/python/deb_dist/* $BUILD_DIR/deb_dist
+
+# OK now copy it all to /travis so that Travis's worker can access the files
+cp -R $BUILD_DIR/deb_dist /travis
+# chown $USER_INFO /travis
