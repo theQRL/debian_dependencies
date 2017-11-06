@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-
-echo $BUILD_DIR
+export BUILD_DIR=/build
 echo $PROTOBUF_VER
 echo $GRPCIO_VER
+
 
 export PROTOBUF_DIR=protobuf-$PROTOBUF_VER
 export GRPCIO_DIR=grpcio-$GRPCIO_VER
@@ -30,7 +30,7 @@ cd $BUILD_DIR/$PROTOBUF_DIR/python/deb_dist
 ln -s $BUILD_DIR/$PROTOBUF_DIR/src src
 
 cd $BUILD_DIR/$PROTOBUF_DIR/python/deb_dist/$PROTOBUF_DIR
-dpkg-buildpackage -rfakeroot -uc -us
+dpkg-buildpackage
 
 # grpcio
 
@@ -50,4 +50,4 @@ mv $BUILD_DIR/$PROTOBUF_DIR/python/deb_dist/* $BUILD_DIR/deb_dist
 
 # OK now copy it all to /travis so that Travis's worker can access the files
 cp -R $BUILD_DIR/deb_dist /travis
-# chown $USER_INFO /travis
+chown -R $USER_INFO /travis
