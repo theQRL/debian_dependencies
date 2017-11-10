@@ -1,5 +1,5 @@
 #Download base ubuntu image
-FROM debian:stretch
+FROM ubuntu:xenial
 RUN apt-get update
 RUN apt-get -y install swig3.0 python-all-dev python3-all-dev python3-pip python-stdeb python3-stdeb build-essential cmake  pkg-config libssl-dev libffi-dev dput
 RUN apt-get -y install build-essential git sudo wget htop nano
@@ -10,7 +10,7 @@ RUN pip3 install --upgrade pip virtualenv setuptools twine PyScaffold==2.5.8
 # ENV - Define environment variables
 
 # COPY - Copy the script that actually builds things in there
-COPY debian-stretch-deps/build.sh /build.sh
+COPY ubuntu-xenial-deps/build.sh /build.sh
 RUN chmod +x /build.sh
 
 # VOLUME - link directories to host

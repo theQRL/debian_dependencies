@@ -4,10 +4,9 @@ services: docker
 
 jobs:
   include:
-    - stage: build dependencies
+    - stage: build dependencies (xenial)
       os: linux
       env:
-      - BUILD_DIR='/build'
       - PROTOBUF_VER=3.4.1
       - GRPCIO_VER=1.7.0
       script: "./build.sh"
