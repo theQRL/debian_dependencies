@@ -12,9 +12,10 @@ RUN pip3 install --upgrade pip virtualenv setuptools twine PyScaffold==2.5.8
 # COPY - Copy the script that actually builds things in there
 COPY ubuntu-xenial-deps/build.sh /build.sh
 RUN chmod +x /build.sh
+RUN mkdir /build
 
 # VOLUME - link directories to host
-VOLUME ["/build", "/travis"]
+VOLUME ["/travis"]
 
 # START SCRIPT - The script is started from travis with the appropriate environment variables
 #CMD ["/root/start.sh"]
