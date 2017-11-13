@@ -49,5 +49,6 @@ dpkg-buildpackage
 mv $BUILD_DIR/$PROTOBUF_DIR/python/deb_dist/* $BUILD_DIR/deb_dist
 
 # OK now copy it all to /travis so that Travis's worker can access the files
-cp -R $BUILD_DIR/deb_dist /travis
+mkdir -p /travis/built/${PLATFORM}
+cp -R $BUILD_DIR/deb_dist/* /travis/built/${PLATFORM}
 chown -R $USER_INFO /travis
