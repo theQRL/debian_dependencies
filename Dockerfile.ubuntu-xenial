@@ -10,7 +10,7 @@ RUN pip3 install --upgrade pip virtualenv setuptools twine PyScaffold==2.5.8
 # ENV - Define environment variables
 
 # COPY - Copy the script that actually builds things in there
-COPY ubuntu-xenial-deps/build.sh /build.sh
+COPY ubuntu-xenial/build.sh /build.sh
 RUN chmod +x /build.sh
 RUN mkdir /build
 

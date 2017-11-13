@@ -10,14 +10,14 @@ jobs:
       - PROTOBUF_VER=3.4.1
       - GRPCIO_VER=1.7.0
       - PLATFORM=ubuntu-xenial
-      script: "./build.sh"
+      script: "./travis_build.sh"
     - stage: build dependencies (debian-stretch)
       os: linux
       env:
       - PROTOBUF_VER=3.4.1
       - GRPCIO_VER=1.7.0
       - PLATFORM=debian-stretch
-      script: "./build.sh"
+      script: "./travis_build.sh"
 
   deploy:
     provider: pages
