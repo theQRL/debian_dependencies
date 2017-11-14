@@ -4,14 +4,14 @@ services: docker
 
 jobs:
   include:
-    - stage: build dependencies (ubuntu-xenial)
+    - stage: build dependencies
       os: linux
       env:
       - PROTOBUF_VER=3.4.1
       - GRPCIO_VER=1.7.0
       - PLATFORM=ubuntu-xenial
       script: "./travis_build.sh"
-    - stage: build dependencies (debian-stretch)
+    - stage: build dependencies
       os: linux
       env:
       - PROTOBUF_VER=3.4.1
