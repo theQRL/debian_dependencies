@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-mkdir -p /travis/built/${PLATFORM}
-touch /travis/built/${PLATFORM}/build_results
+touch /travis/${PLATFORM}/build_results

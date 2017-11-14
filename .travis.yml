@@ -10,19 +10,14 @@ jobs:
       - PROTOBUF_VER=3.4.1
       - GRPCIO_VER=1.7.0
       - PLATFORM=ubuntu-xenial
+      - GITHUB_TOKEN=$GITHUB_TOKEN
       script: "./travis_build.sh"
+    
     - stage: build dependencies
       os: linux
       env:
       - PROTOBUF_VER=3.4.1
       - GRPCIO_VER=1.7.0
       - PLATFORM=debian-stretch
+      - GITHUB_TOKEN=$GITHUB_TOKEN
       script: "./travis_build.sh"
-
-  deploy:
-    provider: pages
-    skip_cleanup: true
-    github_token: $GITHUB_TOKEN
-    repo: qrllib-deps-builder
-    on:
-      branch: master
