@@ -11,7 +11,7 @@ RUN pip3 install --upgrade pip virtualenv setuptools twine PyScaffold==2.5.8
 
 # COPY - Copy the script that actually builds things in there
 COPY debian-stretch/build.sh /build.sh
-COPY debian-stretch/build_test.sh /build_test.sh
+COPY debian-stretch/build_dummy.sh /build_dummy.sh
 
 RUN chmod +x /build.sh
 RUN mkdir /build
