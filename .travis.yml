@@ -21,3 +21,11 @@ jobs:
       - PLATFORM=debian-stretch
       - GITHUB_TOKEN=$GITHUB_TOKEN
       script: "./travis_build.sh"
+
+    - stage: merge buildfiles from architectures to a single Git branch
+      os: linux
+      env:
+      - PROTOBUF_VER=3.4.1
+      - GRPCIO_VER=1.7.0
+      - GITHUB_TOKEN=$GITHUB_TOKEN
+      script: "./merge-git.sh"
