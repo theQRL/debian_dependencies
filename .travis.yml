@@ -1,31 +1,33 @@
 sudo: required
 dist: trusty
 services: docker
-
 jobs:
   include:
-    - stage: build dependencies
-      os: linux
-      env:
-      - PROTOBUF_VER=3.4.1
-      - GRPCIO_VER=1.7.0
-      - PLATFORM=ubuntu-xenial
-      - GITHUB_TOKEN=$GITHUB_TOKEN
-      script: "./travis_build.sh"
-    
-    - stage: build dependencies
-      os: linux
-      env:
-      - PROTOBUF_VER=3.4.1
-      - GRPCIO_VER=1.7.0
-      - PLATFORM=debian-stretch
-      - GITHUB_TOKEN=$GITHUB_TOKEN
-      script: "./travis_build.sh"
-
-    - stage: merge buildfiles from architectures to a single Git branch
-      os: linux
-      env:
-      - PROTOBUF_VER=3.4.1
-      - GRPCIO_VER=1.7.0
-      - GITHUB_TOKEN=$GITHUB_TOKEN
-      script: "./merge-git.sh"
+  - stage: build dependencies
+    os: linux
+    env:
+    - PROTOBUF_VER=3.4.1
+    - GRPCIO_VER=1.7.0
+    - PLATFORM=ubuntu-xenial
+    - GITHUB_TOKEN=$GITHUB_TOKEN
+    - GPGKEY=84B8A307
+    script: "./travis_build.sh"
+  - stage: build dependencies
+    os: linux
+    env:
+    - PROTOBUF_VER=3.4.1
+    - GRPCIO_VER=1.7.0
+    - PLATFORM=debian-stretch
+    - GITHUB_TOKEN=$GITHUB_TOKEN
+    - GPGKEY=84B8A307
+    script: "./travis_build.sh"
+  - stage: merge buildfiles from architectures to a single Git branch
+    os: linux
+    env:
+    - PROTOBUF_VER=3.4.1
+    - GRPCIO_VER=1.7.0
+    - GITHUB_TOKEN=$GITHUB_TOKEN
+    script: "./merge-git.sh"
+before_install:
+- openssl aes-256-cbc -K $encrypted_12e7435d0bba_key -iv $encrypted_12e7435d0bba_iv
+  -in keys.tar.enc -out keys.tar -d

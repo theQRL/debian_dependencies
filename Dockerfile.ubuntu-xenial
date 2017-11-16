@@ -17,7 +17,7 @@ RUN chmod +x /build.sh
 RUN mkdir /build
 
 # VOLUME - link directories to host
-VOLUME ["/travis"]
+VOLUME ["/travis", "/secrets"]
 
 # START SCRIPT - The script is started from travis with the appropriate environment variables
 #CMD ["/root/start.sh"]

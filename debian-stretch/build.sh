@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+gpg --import /secrets/public.gpg
+gpg --import /secrets/private.gpg
+echo "Going to use key ${GPGKEY}"
+
 export BUILD_DIR=/build
 echo $PROTOBUF_VER
 echo $GRPCIO_VER
@@ -30,7 +34,7 @@ cd $BUILD_DIR/$PROTOBUF_DIR/python/deb_dist
 ln -s $BUILD_DIR/$PROTOBUF_DIR/src src
 
 cd $BUILD_DIR/$PROTOBUF_DIR/python/deb_dist/$PROTOBUF_DIR
-dpkg-buildpackage
+dpkg-buildpackage -k$GPGKEY
 
 # grpcio
 
@@ -38,17 +42,17 @@ cd $BUILD_DIR
 pip3 download --no-deps --no-binary :all: grpcio==$GRPCIO_VER grpcio-tools==$GRPCIO_VER
 py2dsc --with-python2=False --with-python3=True grpcio-$GRPCIO_VER.tar.gz
 cd deb_dist/$GRPCIO_DIR
-dpkg-buildpackage
+dpkg-buildpackage -k$GPGKEY
 
 cd $BUILD_DIR
 py2dsc --with-python2=False --with-python3=True grpcio-tools-$GRPCIO_VER.tar.gz
 cd deb_dist/$GRPCIO_TOOLS_DIR
-dpkg-buildpackage
+dpkg-buildpackage -k$GPGKEY
 
 # Move the Protobuf stuff to /build/deb_dist
 mv $BUILD_DIR/$PROTOBUF_DIR/python/deb_dist/* $BUILD_DIR/deb_dist
 
 # OK now copy it all to /travis so that Travis's worker can access the files
-mkdir -p /travis/built/${PLATFORM}
-cp -R $BUILD_DIR/deb_dist/* /travis/built/${PLATFORM}
+mkdir -p /travis/${PLATFORM}
+cp $BUILD_DIR/deb_dist/* /travis/${PLATFORM}
 chown -R $USER_INFO /travis
