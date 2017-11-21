@@ -1,3 +1,11 @@
+set -e
+echo "PUSHING TO GITHUB PAGES"
+if [ `git branch --list ${PLATFORM}` ]
+then
+    echo "Branch ${PLATFORM} already exists, deleting"
+    git branch -D ${PLATFORM}
+fi
+
 git checkout --orphan ${PLATFORM}
 git rm --cached -r .
 git add built/${PLATFORM}
