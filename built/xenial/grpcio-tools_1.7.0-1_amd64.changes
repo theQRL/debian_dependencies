@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 21 Nov 2017 21:03:00 +0000
+Source: grpcio-tools
+Binary: python3-grpcio-tools
+Architecture: source amd64
+Version: 1.7.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: The gRPC Authors <grpc-io@googlegroups.com>
+Changed-By: The gRPC Authors <grpc-io@googlegroups.com>
+Description:
+ python3-grpcio-tools - Protobuf code generator for gRPC
+Changes:
+ grpcio-tools (1.7.0-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ b732db14e5d0ad0dd5f970c2898b796fb5ddfd55 1437 grpcio-tools_1.7.0-1.dsc
+ 298ac0fbf827020ac45d7a10f6f6bf56d6278a67 1920133 grpcio-tools_1.7.0.orig.tar.gz
+ 3bed0f42fca7f9e75137b205f8fb03b0e0780457 884 grpcio-tools_1.7.0-1.debian.tar.xz
+ 79f4ec72cfae75023fac1d015aa7d48a60e7b613 1275980 python3-grpcio-tools_1.7.0-1_amd64.deb
+Checksums-Sha256:
+ b8a6ef00cf7a5a63b66de420da6d247df6239482adfb0fb276d2fdaa7ace55bb 1437 grpcio-tools_1.7.0-1.dsc
+ 217b1a6f7ef10b79d4c98585a10a81027311cb5ef1c95d82880e819da4655e52 1920133 grpcio-tools_1.7.0.orig.tar.gz
+ b4cb4cc47c8894482c073ab0f79f3e4507579ec80fe39dfe52c144516fef19cc 884 grpcio-tools_1.7.0-1.debian.tar.xz
+ c2be7bb5c1f8ff5996f9031cb206872973c8cac14eb62f27aa3ba4f917bb8797 1275980 python3-grpcio-tools_1.7.0-1_amd64.deb
+Files:
+ fa1e971f9ef7743fa68dc485c6bbd38e 1437 python optional grpcio-tools_1.7.0-1.dsc
+ b2a25251b829aae9865aa77970fc1703 1920133 python optional grpcio-tools_1.7.0.orig.tar.gz
+ 100c4f8a40eb995ef2300585c1cc0568 884 python optional grpcio-tools_1.7.0-1.debian.tar.xz
+ 43ee908893aace01e09fd3cc419b6018 1275980 python optional python3-grpcio-tools_1.7.0-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJaFJYgAAoJEO1p9Q6EuKMHdrkH/iCDe0mapBCc8PDXs4eDsUE1
+6vMlC/ytSisxBhdXBLBWGf/UM7zTeF7WlH7FAIpl6gsdPYPfq8UOZ9DL4xBd1EL1
+YKP4UMN07WxM2twmNFE32uacJaSnafWy6UsdwIcEsuCUq2TTPBIpmRrtlG8eg9O0
+R1Ov9zmo9npzaM8AnyDf7H+K4mtdqfpYeDKTHi5yPiNjGMVQFWRVaufvzM6aEP+K
+PpdNTTCYeaTHzxfCDpLdT7ZHORLdnWFFxdzJgcP7ns2teiv9iVcnIaQCYMDUnIk8
+mxBGKcdByA0sdv6ZkEw9vbg30fFDqYLps0pgo5THGj248Mc9bAokrN2SWp13l0U=
+=+haW
+-----END PGP SIGNATURE-----
