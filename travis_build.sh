@@ -18,7 +18,7 @@ docker stop -t 0 $(docker ps -aq --filter name=worker-${PLATFORM}) || true
 docker rm $(docker ps -aq --filter name=worker-${PLATFORM}) || true
 docker build --file Dockerfile.${PLATFORM} -t builder-${PLATFORM} .
 #docker run --name worker-${PLATFORM} -it -e USER_INFO=${USER_INFO} -e PLATFORM=${PLATFORM} --env-file=env ${SHARE_BUILD_DIR} ${SHARE_SECRETS} ${SHARE_USER_INFO} builder-${PLATFORM} bash
-docker run --name worker-${PLATFORM} -t -e USER_INFO=${USER_INFO} -e PLATFORM=${PLATFORM} --env-file=env ${SHARE_BUILD_DIR} ${SHARE_SECRETS} ${SHARE_USER_INFO} builder-${PLATFORM} /build_dummy.sh
+docker run --name worker-${PLATFORM} -t -e USER_INFO=${USER_INFO} -e PLATFORM=${PLATFORM} --env-file=env ${SHARE_BUILD_DIR} ${SHARE_SECRETS} ${SHARE_USER_INFO} builder-${PLATFORM} /build.sh
 
 echo "BUILD FINISHED"
 
