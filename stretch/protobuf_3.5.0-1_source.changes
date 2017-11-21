@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 21 Nov 2017 20:59:22 +0000
+Source: protobuf
+Binary: python3-protobuf
+Architecture: source
+Version: 3.5.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: protobuf@googlegroups.com <protobuf@googlegroups.com>
+Changed-By: protobuf@googlegroups.com <protobuf@googlegroups.com>
+Description:
+ python3-protobuf - Protocol Buffers
+Changes:
+ protobuf (3.5.0-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ e41478a884e858505faf968964bd160830071ef9 915 protobuf_3.5.0-1.dsc
+ b90da38732317ed87e47c3edf3ac253879bf06ef 102598 protobuf_3.5.0.orig.tar.gz
+ 53fec60a0de0a126fdd4f2cf703ae9a969c1a21d 896 protobuf_3.5.0-1.debian.tar.xz
+ 4c12b5551da12918663ded9d1702a60f0741551c 4905 protobuf_3.5.0-1_source.buildinfo
+Checksums-Sha256:
+ a5c40b85a07b41e1946f6914ea34b05cec9c735af8b1b13a58672636d6e25b58 915 protobuf_3.5.0-1.dsc
+ 577729868e27c2bcfe57f30195c0dd39082a05de9b782993218697c406374138 102598 protobuf_3.5.0.orig.tar.gz
+ 446d43035e469bcf67731d27e9c6a4cbdcb787eced787cd30821655659836d15 896 protobuf_3.5.0-1.debian.tar.xz
+ c05d621e8804d85665d31fd2f25e29c98c63b96182fcc4f93c419acae630e787 4905 protobuf_3.5.0-1_source.buildinfo
+Files:
+ 1026a0ec7e31453ed720fe5e1d3815d6 915 python optional protobuf_3.5.0-1.dsc
+ 984ab32fc7084022e2fe90d1222f3900 102598 python optional protobuf_3.5.0.orig.tar.gz
+ bc7c8c2af79d8d7f3b1167cb4f022b5a 896 python optional protobuf_3.5.0-1.debian.tar.xz
+ 9393ff42e2992445ad00b7cbf532ff50 4905 python optional protobuf_3.5.0-1_source.buildinfo

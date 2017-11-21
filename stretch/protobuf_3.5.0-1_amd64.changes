@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 21 Nov 2017 20:59:22 +0000
+Source: protobuf
+Binary: python3-protobuf
+Architecture: source all
+Version: 3.5.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: protobuf@googlegroups.com <protobuf@googlegroups.com>
+Changed-By: protobuf@googlegroups.com <protobuf@googlegroups.com>
+Description:
+ python3-protobuf - Protocol Buffers
+Changes:
+ protobuf (3.5.0-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ efff68da8ef5e60ecc08b0e873c3cf5148468d85 1453 protobuf_3.5.0-1.dsc
+ b90da38732317ed87e47c3edf3ac253879bf06ef 102598 protobuf_3.5.0.orig.tar.gz
+ 53fec60a0de0a126fdd4f2cf703ae9a969c1a21d 896 protobuf_3.5.0-1.debian.tar.xz
+ 684b825a899957ba4bcaa2cd22ab9a3769d113b0 5712 protobuf_3.5.0-1_amd64.buildinfo
+ 9ffa0379cb329e26e3b26a92b71777178a53b260 145568 python3-protobuf_3.5.0-1_all.deb
+Checksums-Sha256:
+ efa62789b38ba16f941167e9031bb19c0b209a4da7ece20ba5ebb26bf8411eaf 1453 protobuf_3.5.0-1.dsc
+ 577729868e27c2bcfe57f30195c0dd39082a05de9b782993218697c406374138 102598 protobuf_3.5.0.orig.tar.gz
+ 446d43035e469bcf67731d27e9c6a4cbdcb787eced787cd30821655659836d15 896 protobuf_3.5.0-1.debian.tar.xz
+ 5395495d25f96479abe938954304e462fda56e34af9372627d2a25541a66729e 5712 protobuf_3.5.0-1_amd64.buildinfo
+ 5cb8a580f7e05fc41c93f3cb0e83708e5708a9e28f34838667706a9fb266ac91 145568 python3-protobuf_3.5.0-1_all.deb
+Files:
+ 7e67f6cbd34f5f19bb88017a5ec9b971 1453 python optional protobuf_3.5.0-1.dsc
+ 984ab32fc7084022e2fe90d1222f3900 102598 python optional protobuf_3.5.0.orig.tar.gz
+ bc7c8c2af79d8d7f3b1167cb4f022b5a 896 python optional protobuf_3.5.0-1.debian.tar.xz
+ 10794c62d557adc22e73e4ef9ad9ee19 5712 python optional protobuf_3.5.0-1_amd64.buildinfo
+ 2e83fbf1eb4e6ae1d98340cea8f9b6e7 145568 python optional python3-protobuf_3.5.0-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEiWlAfYK5/0e+FBHO7Wn1DoS4owcFAloUk74ACgkQ7Wn1DoS4
+owfNTQf+ML8x29UjZjcaE3pgU7n+2aocphHoPQBNFm3y2+LQciXf1IT5L1nib9MS
+XQ8KZSy1SxD+DB1BtTJ+cFjF1DVHjXC69gACVVhDO6EkoTaE5Vy7JiDgYAb7hSUz
+AzWVESdlal+8p8FdcvkYC4NB5Wqm1qOaGJ+X2b9msUHjfMqMA639NzgCMcFHfS9I
+ZsjCnKkzmeEc3M0ay5HiqcOMCOcl9UHgP7FFZkncwO11tbfA/1dsx6VirPYxXk/a
+V8N6HvOyXXgS1bPHzRy0zy4Or55v8ihi89NonrMnY2Uz8O1pdDi2Se3rnZYFIZjI
+hDRmav1A+EpbiHAYOmyA17gTtv0Z+A==
+=ak0O
+-----END PGP SIGNATURE-----
