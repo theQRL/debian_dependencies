@@ -54,5 +54,5 @@ mv $BUILD_DIR/$PROTOBUF_DIR/python/deb_dist/* $BUILD_DIR/deb_dist
 
 # OK now copy it all to /travis so that Travis's worker can access the files
 mkdir -p /travis/${PLATFORM}
-cp $BUILD_DIR/deb_dist/* /travis/${PLATFORM}
+find $BUILD_DIR/deb_dist -maxdepth 1 -type f -exec cp {} /travis/${PLATFORM} \;
 chown -R $USER_INFO /travis
