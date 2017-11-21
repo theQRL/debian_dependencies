@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 21 Nov 2017 18:55:19 +0000
+Source: grpcio
+Binary: python3-grpcio
+Architecture: source amd64
+Version: 1.7.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: The gRPC Authors <grpc-io@googlegroups.com>
+Changed-By: The gRPC Authors <grpc-io@googlegroups.com>
+Description:
+ python3-grpcio - HTTP/2-based RPC framework
+Changes:
+ grpcio (1.7.0-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ 2eb273a476c9ab3458e5010722ac20fd00adb97e 1403 grpcio_1.7.0-1.dsc
+ dbe82d5d257721c07b20ab7fa508beebef736995 9999425 grpcio_1.7.0.orig.tar.gz
+ 5fe3e1434d55e11744ec37eb19451db7fd624dfd 1024 grpcio_1.7.0-1.debian.tar.xz
+ a88bc2c409b620439038d54860594e2343834bf7 6208 grpcio_1.7.0-1_amd64.buildinfo
+ e3fb89cc36734b6e6032a7ab9d1a6133c99ee02e 3598468 python3-grpcio-dbgsym_1.7.0-1_amd64.deb
+ 8872f54b1d910359119db8a8e08cc08a3ebe22e8 1110334 python3-grpcio_1.7.0-1_amd64.deb
+Checksums-Sha256:
+ 11cfec886079685e9aee8afc786a5e48a29425e3156cf085664f3c3526e12032 1403 grpcio_1.7.0-1.dsc
+ 6662af1f07cf7a3d171a7f56afc2cfeff262a5f2c52d15ae5ea581d0c367aea8 9999425 grpcio_1.7.0.orig.tar.gz
+ 0d8559fbbcefe1cfcb61bb25497ebc00d1f03a0c987244a674615ce5cc6857e8 1024 grpcio_1.7.0-1.debian.tar.xz
+ 4af0e46469242c2f78f87d35984afe24021379b4bace1ab2168b8246213ea353 6208 grpcio_1.7.0-1_amd64.buildinfo
+ 266aff0a769c8a24c6488ed45b2e36a4be213f97f2d074e7feeb48d1af5fbb99 3598468 python3-grpcio-dbgsym_1.7.0-1_amd64.deb
+ d5e738cfdd43c3ad629d6473d1d4258d70e0d790def1964272c3d51b35cffbc1 1110334 python3-grpcio_1.7.0-1_amd64.deb
+Files:
+ 130abfd91979c9fcbd491fe4226cc43c 1403 python optional grpcio_1.7.0-1.dsc
+ b564632793132fd35cdff984d6b309b0 9999425 python optional grpcio_1.7.0.orig.tar.gz
+ 7c8d042a646f728172fbbd3a4c2dbd58 1024 python optional grpcio_1.7.0-1.debian.tar.xz
+ 708e78954f5c3f18cb81b4b0547de9d0 6208 python optional grpcio_1.7.0-1_amd64.buildinfo
+ 09c118328aa23a47ab2229e36ebd647e 3598468 debug extra python3-grpcio-dbgsym_1.7.0-1_amd64.deb
+ 31db7ebf6d0a2df81c3dc72470a44eb7 1110334 python optional python3-grpcio_1.7.0-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEiWlAfYK5/0e+FBHO7Wn1DoS4owcFAloUdwgACgkQ7Wn1DoS4
+owcbnAf/VrvIwEBgzm+iVM7mZB7hQZfgb62XNnCV6hvjMAmT8HdiEl/erujEI2jm
+gLWnpTdbqsVEdTFUuo1DET+W7kvEJDhwWwY7zsKA45R7rVTq9COLo2OlxHxqQH6n
+jkxeJ8+l0ul+Y2FSWsBrMOWpuCjX8tbqdTfertUds6Gvclw+y68ZNo3/Ljubvgo3
+bDSmYpNwDuXkkuCa8sg/BkYKoFYEXoRSEGxxFII/eLL6qWu/8+zLNXEwXxFpdBD2
+VUwCY1s1AXqfRidsBjY5Y6HuivLEwYc4QzCRMv+8pAv9E9m64e/UZhAjPs/jGngT
+HNMffPZxuYX/CxlJXFu7G0aqIP0P5Q==
+=G+0r
+-----END PGP SIGNATURE-----

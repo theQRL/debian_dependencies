@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Tue, 21 Nov 2017 18:55:25 +0000
+Source: grpcio
+Binary: python3-grpcio
+Architecture: source
+Version: 1.7.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: The gRPC Authors <grpc-io@googlegroups.com>
+Changed-By: The gRPC Authors <grpc-io@googlegroups.com>
+Description:
+ python3-grpcio - HTTP/2-based RPC framework
+Changes:
+ grpcio (1.7.0-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ 2a00abd57304bbf3c4d237703f982e2aaac2cac2 865 grpcio_1.7.0-1.dsc
+ dbe82d5d257721c07b20ab7fa508beebef736995 9999425 grpcio_1.7.0.orig.tar.gz
+ 98bc8ecd21a243cc8ff210e4dac521820d75330d 1028 grpcio_1.7.0-1.debian.tar.xz
+Checksums-Sha256:
+ a48bb1e286abad1dc0c0391aa9ffaf9277a513db99765ddce12e4a98bd344b63 865 grpcio_1.7.0-1.dsc
+ 6662af1f07cf7a3d171a7f56afc2cfeff262a5f2c52d15ae5ea581d0c367aea8 9999425 grpcio_1.7.0.orig.tar.gz
+ 268c918a0444a33ef32252a0abb38cc18a20be77991ea5cad00b0e7e12a906b7 1028 grpcio_1.7.0-1.debian.tar.xz
+Files:
+ a85195d5398b07cb2122626dd20245a3 865 python optional grpcio_1.7.0-1.dsc
+ b564632793132fd35cdff984d6b309b0 9999425 python optional grpcio_1.7.0.orig.tar.gz
+ 611cd2bebfe1acc63b722d1d4b176c24 1028 python optional grpcio_1.7.0-1.debian.tar.xz

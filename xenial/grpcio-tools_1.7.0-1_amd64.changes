@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 21 Nov 2017 18:57:17 +0000
+Source: grpcio-tools
+Binary: python3-grpcio-tools
+Architecture: source amd64
+Version: 1.7.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: The gRPC Authors <grpc-io@googlegroups.com>
+Changed-By: The gRPC Authors <grpc-io@googlegroups.com>
+Description:
+ python3-grpcio-tools - Protobuf code generator for gRPC
+Changes:
+ grpcio-tools (1.7.0-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ 37f998fa975e47a8ef1a532c4cc6cc05a77d8712 1437 grpcio-tools_1.7.0-1.dsc
+ 298ac0fbf827020ac45d7a10f6f6bf56d6278a67 1920133 grpcio-tools_1.7.0.orig.tar.gz
+ e24b5b0a59326823e4c4cabfc6129c397844c685 884 grpcio-tools_1.7.0-1.debian.tar.xz
+ 3b6fb9e1a1facaf6c37bcc51eaef8af727a1da74 1277014 python3-grpcio-tools_1.7.0-1_amd64.deb
+Checksums-Sha256:
+ 5a7fa46f7b96825454fe98ea0cdc12d12c51b87e3fa517d420fc816d9fe872a4 1437 grpcio-tools_1.7.0-1.dsc
+ 217b1a6f7ef10b79d4c98585a10a81027311cb5ef1c95d82880e819da4655e52 1920133 grpcio-tools_1.7.0.orig.tar.gz
+ 79f79a3a9ea3a1689ab4bc1c8d5515c8288940c4d15e1f2d5b912ff155f10cd6 884 grpcio-tools_1.7.0-1.debian.tar.xz
+ 0c3efc103dcdbbfe13953ff55393e50c76f0df21bda26b577b623807cacd7435 1277014 python3-grpcio-tools_1.7.0-1_amd64.deb
+Files:
+ a96ca26e09f90008b950d17d12d1a9b3 1437 python optional grpcio-tools_1.7.0-1.dsc
+ b2a25251b829aae9865aa77970fc1703 1920133 python optional grpcio-tools_1.7.0.orig.tar.gz
+ 207014040cbf82e8654bbd0c34b1fa92 884 python optional grpcio-tools_1.7.0-1.debian.tar.xz
+ 2f58f647a6a1b683074dc0a766cbbfd8 1277014 python optional python3-grpcio-tools_1.7.0-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJaFHiVAAoJEO1p9Q6EuKMH/H8H/RCaJHstwTi/1gbuEvIOamC8
+XE7hti/KbCLEKeoeJLLKT0ZcDsmoCIOYD1k2v3IXSmmPjBtUiGKGRsxZQqPSgnbr
+x/RKY1IEjuY06XSOcuFUYJb0n7C7nkj9YKCdY4JEG5fUKuBSfowHP3xQhdb6dE3S
+HkoLQX65MP3EXJuNLP7xraGhlectK1IgdYMVamP7Ru7VlA/ywGdqknGjCK0ZFueA
+wAsVH/eTsp1ByUOIBrq8pTbURYTYs4+ly1kY6fh8Y12qDHWkKy+7JYQa8OrIRDGk
+No24ZN7TJlHR384ht7ipgdX0ZC4P1MFFjU4zb0gD9pkAQ62WPM1gclgH/IG+VPg=
+=3MtE
+-----END PGP SIGNATURE-----
