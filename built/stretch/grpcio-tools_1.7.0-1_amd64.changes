@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 21 Nov 2017 21:01:41 +0000
+Source: grpcio-tools
+Binary: python3-grpcio-tools
+Architecture: source amd64
+Version: 1.7.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: The gRPC Authors <grpc-io@googlegroups.com>
+Changed-By: The gRPC Authors <grpc-io@googlegroups.com>
+Description:
+ python3-grpcio-tools - Protobuf code generator for gRPC
+Changes:
+ grpcio-tools (1.7.0-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ 6f925842483cd608d21916ca621db3bee969f68a 1454 grpcio-tools_1.7.0-1.dsc
+ 298ac0fbf827020ac45d7a10f6f6bf56d6278a67 1920133 grpcio-tools_1.7.0.orig.tar.gz
+ 87311910cabdabb435e6281214d09054ee1b98c0 884 grpcio-tools_1.7.0-1.debian.tar.xz
+ 4bbf0439af902acd07d715dd99b3bb030216c77c 6283 grpcio-tools_1.7.0-1_amd64.buildinfo
+ bbaa093c5fe39f3cf38951b4c40d6ffaefdebd01 17783406 python3-grpcio-tools-dbgsym_1.7.0-1_amd64.deb
+ 1d1166be5e617b3bcef3e8131a6df86da328c888 1302300 python3-grpcio-tools_1.7.0-1_amd64.deb
+Checksums-Sha256:
+ c04a830c054163ba758fed54a564a8f2a5cc6ef7cd7e274f19dfe6be8946863a 1454 grpcio-tools_1.7.0-1.dsc
+ 217b1a6f7ef10b79d4c98585a10a81027311cb5ef1c95d82880e819da4655e52 1920133 grpcio-tools_1.7.0.orig.tar.gz
+ ef87cc0d1cd0a95ad0c4e99c0955c1d3c80f42484eff28862d1d6e8596e07902 884 grpcio-tools_1.7.0-1.debian.tar.xz
+ 09539d7d3dd0536cc3ceea7ae938c30b8fc862a819e62129ae488859f0958d1a 6283 grpcio-tools_1.7.0-1_amd64.buildinfo
+ c6a3cbf3c92b99eae0bde5dd7061643c89dd8db818204ff2b7ccccc7dcbc91ea 17783406 python3-grpcio-tools-dbgsym_1.7.0-1_amd64.deb
+ 267b0015d1f17623705bcca7a56452d5d2c4ef6e8439d04e2d2cac9c9e736b1d 1302300 python3-grpcio-tools_1.7.0-1_amd64.deb
+Files:
+ 91e7aa818f6cb63c9ed9fb0ca3d94b2c 1454 python optional grpcio-tools_1.7.0-1.dsc
+ b2a25251b829aae9865aa77970fc1703 1920133 python optional grpcio-tools_1.7.0.orig.tar.gz
+ 49c7a338b103008747ae4efc8f05c545 884 python optional grpcio-tools_1.7.0-1.debian.tar.xz
+ 9f0a19586a0e8716f34fb8140dce6097 6283 python optional grpcio-tools_1.7.0-1_amd64.buildinfo
+ 4e1e8aa37c6d3ea7bdd4b587a899e7b8 17783406 debug extra python3-grpcio-tools-dbgsym_1.7.0-1_amd64.deb
+ 90c0a4ebcdcdc73a92f323f6e9a9402f 1302300 python optional python3-grpcio-tools_1.7.0-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEiWlAfYK5/0e+FBHO7Wn1DoS4owcFAloUlX4ACgkQ7Wn1DoS4
+owdvpAf/dBbJy56IWOn5hxcSroip/AzrXY2PxFXT0SBb1XZujrzDvAj4FXjxkIVN
+AWNXFUfaY3dOImPhGxohuZS5ZyCyVQljiheknnAj1iqCsEjnAxCwlJnLgW5BiYhW
+VPEA/xXw522r8M8TYVY1in944psy7d7t/l7rLsWKOaFT5Ot55aNNOXLT45bDD4rY
+2B1yQfctqpJa5t6xBBf1QUJkknX+Q0cQJuw61pbhxy2eH9SUv4k8x9/PIfddDxmj
+JPPTGaAUU+R//fH6kJuJqwngZEbYB3UCUvIoAoMBt0UQVZ9sDHeEcNuySxdEr3CE
+S0X/AH7FJ3Nu1ZrXq63j3+V5X1j+Kw==
+=yOOU
+-----END PGP SIGNATURE-----

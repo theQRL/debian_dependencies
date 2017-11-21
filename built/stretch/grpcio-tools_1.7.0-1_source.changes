@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 21 Nov 2017 21:01:41 +0000
+Source: grpcio-tools
+Binary: python3-grpcio-tools
+Architecture: source
+Version: 1.7.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: The gRPC Authors <grpc-io@googlegroups.com>
+Changed-By: The gRPC Authors <grpc-io@googlegroups.com>
+Description:
+ python3-grpcio-tools - Protobuf code generator for gRPC
+Changes:
+ grpcio-tools (1.7.0-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ a8ae5d1fd9677e207b5d151f563d6e3e50a7975b 916 grpcio-tools_1.7.0-1.dsc
+ 298ac0fbf827020ac45d7a10f6f6bf56d6278a67 1920133 grpcio-tools_1.7.0.orig.tar.gz
+ 87311910cabdabb435e6281214d09054ee1b98c0 884 grpcio-tools_1.7.0-1.debian.tar.xz
+ df26d1065e8d60e3d653aa50f288929e4e5301a3 5146 grpcio-tools_1.7.0-1_source.buildinfo
+Checksums-Sha256:
+ f0f7376b30dc704bc4a027fabb6956327920b8d84893c8f8308998bc59181d61 916 grpcio-tools_1.7.0-1.dsc
+ 217b1a6f7ef10b79d4c98585a10a81027311cb5ef1c95d82880e819da4655e52 1920133 grpcio-tools_1.7.0.orig.tar.gz
+ ef87cc0d1cd0a95ad0c4e99c0955c1d3c80f42484eff28862d1d6e8596e07902 884 grpcio-tools_1.7.0-1.debian.tar.xz
+ b1ad85c573622268a232d95346142764c233b096ebb92fd117e6f75c7d084423 5146 grpcio-tools_1.7.0-1_source.buildinfo
+Files:
+ 500ca8cbe808636693e57c52f9fa793b 916 python optional grpcio-tools_1.7.0-1.dsc
+ b2a25251b829aae9865aa77970fc1703 1920133 python optional grpcio-tools_1.7.0.orig.tar.gz
+ 49c7a338b103008747ae4efc8f05c545 884 python optional grpcio-tools_1.7.0-1.debian.tar.xz
+ fd71f61a75ebdef45fe3925c2ec45239 5146 python optional grpcio-tools_1.7.0-1_source.buildinfo
