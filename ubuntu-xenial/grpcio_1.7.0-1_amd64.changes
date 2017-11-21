@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Thu, 16 Nov 2017 14:12:48 +0000
+Source: grpcio
+Binary: python3-grpcio
+Architecture: source amd64
+Version: 1.7.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: The gRPC Authors <grpc-io@googlegroups.com>
+Changed-By: The gRPC Authors <grpc-io@googlegroups.com>
+Description:
+ python3-grpcio - HTTP/2-based RPC framework
+Changes:
+ grpcio (1.7.0-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ e2cdc5a1833261745e9f80fe133614359e05aff7 1386 grpcio_1.7.0-1.dsc
+ dbe82d5d257721c07b20ab7fa508beebef736995 9999425 grpcio_1.7.0.orig.tar.gz
+ c4cdfa6e2c6dc78fed8639b8d1697ab97f927447 1028 grpcio_1.7.0-1.debian.tar.xz
+ 7f4f984e78c49f24cd134e34ce63b741a54e9d5d 1107740 python3-grpcio_1.7.0-1_amd64.deb
+Checksums-Sha256:
+ 4495490d46fc9875bd43a7f5ab74d4c4b257bc52369e149982b3ef6af2536498 1386 grpcio_1.7.0-1.dsc
+ 6662af1f07cf7a3d171a7f56afc2cfeff262a5f2c52d15ae5ea581d0c367aea8 9999425 grpcio_1.7.0.orig.tar.gz
+ 73ab52164e2199a7842319b6525ddb40f64fbd84e5d1dcb0affc80a9536f895a 1028 grpcio_1.7.0-1.debian.tar.xz
+ 693ef62cd95d208ece75325ef206f46d2cbddacaf324da492de0cad67a05c3be 1107740 python3-grpcio_1.7.0-1_amd64.deb
+Files:
+ e2a09ec03c289071d3ade63b6829ca03 1386 python optional grpcio_1.7.0-1.dsc
+ b564632793132fd35cdff984d6b309b0 9999425 python optional grpcio_1.7.0.orig.tar.gz
+ afbf07dae341c19281efe41425eb3c23 1028 python optional grpcio_1.7.0-1.debian.tar.xz
+ 3c528ac01e79314e55a226abf0feda9c 1107740 python optional python3-grpcio_1.7.0-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJaDZ1MAAoJEO1p9Q6EuKMHneAIAIPmNUTvIwVG5rhFBzjU1j70
+OLgttwtiQB34y/oaaBMsw0YyXgkuEITv7dpEmQ0iFeJqI1Zg4z5WCM53QpCDMN8e
+3+ICkErNQm+thOKpf2YXZHaBR75xydu/oAUZpUeV+tTbhFgM5Ue7+rVMDwDL99s/
+7Dd5Eps4X2nB3Kt/gCYxRFp2tDcqAhwX2S1+abXLa7CGZXT6C2VlrZuXhl7vfNIM
+1lFJs9ejA6l1J9HOf4kz9fHRxI3jVjaHgpZBj/wMrAodk9HZsrYOCjervcFUT3rS
+lgQhAQMH5Q0WsNUTc9EFmM4qJnASK9codiDxAE/RlqVQ1SylbuI+S78gaoeheLk=
+=9usB
+-----END PGP SIGNATURE-----
