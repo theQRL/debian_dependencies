@@ -6,26 +6,22 @@ jobs:
   - stage: build dependencies
     os: linux
     env:
-    - PROTOBUF_VER=3.4.1
-    - GRPCIO_VER=1.7.0
-    - PLATFORM=ubuntu-xenial
+    - PLATFORM=xenial
     - GITHUB_TOKEN=$GITHUB_TOKEN
-    - GPGKEY=84B8A307
-    script: "./travis_build.sh"
+    script: 
+    - "./travis_build.sh"
+    - "./push_to_git.sh"
   - stage: build dependencies
     os: linux
     env:
-    - PROTOBUF_VER=3.4.1
-    - GRPCIO_VER=1.7.0
-    - PLATFORM=debian-stretch
+    - PLATFORM=stretch
     - GITHUB_TOKEN=$GITHUB_TOKEN
-    - GPGKEY=84B8A307
-    script: "./travis_build.sh"
+    script:
+    - "./travis_build.sh"
+    - "./push_to_git.sh"
   - stage: merge buildfiles from architectures to a single Git branch
     os: linux
     env:
-    - PROTOBUF_VER=3.4.1
-    - GRPCIO_VER=1.7.0
     - GITHUB_TOKEN=$GITHUB_TOKEN
     script: "./merge-git.sh"
 before_install:
