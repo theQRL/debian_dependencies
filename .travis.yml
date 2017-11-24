@@ -7,7 +7,7 @@ jobs:
     os: linux
     env:
     - PLATFORM=xenial
-    script: 
+    script:
     - "./travis_build.sh"
     - "./push_to_git.sh"
   - stage: build dependencies
@@ -19,8 +19,8 @@ jobs:
     - "./push_to_git.sh"
   - stage: merge buildfiles from architectures to a single Git branch
     os: linux
-    env:
+    env: 
     script: "./merge_git.sh"
 before_install:
-- openssl aes-256-cbc -K $encrypted_12e7435d0bba_key -iv $encrypted_12e7435d0bba_iv
+- openssl aes-256-cbc -K $encrypted_092fa53f157b_key -iv $encrypted_092fa53f157b_iv
   -in keys.tar.enc -out keys.tar -d
