@@ -1,6 +1,11 @@
 sudo: required
 dist: trusty
 services: docker
+env:
+- PROTOBUF_VER=3.5.0
+- GRPCIO_VER=1.7.0
+- GPGKEY=84B8A307
+
 jobs:
   include:
   - stage: build dependencies
